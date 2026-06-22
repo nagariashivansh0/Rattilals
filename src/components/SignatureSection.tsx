@@ -19,6 +19,10 @@ export default function SignatureSection({ items }: Props) {
             <article key={item.name} className="menu-card">
               <div className="menu-card-top">
                 <span className={`type-pill type-${item.type}`}>{item.type}</span>
+<<<<<<< HEAD
+=======
+                {item.signature ? <span className="signature-pill">Signature</span> : null}
+>>>>>>> 2d07df92adaf5071eefa46fface367b7c4f245eb
               </div>
               <h3>{item.name}</h3>
               <p>{item.description}</p>
